@@ -13,4 +13,12 @@ public class PeopleTestClass {
 
     }
 
+    @Test
+    public void testAge(){
+        int age= 28;
+        People test = new People("", age);
+
+        Assert.assertEquals(test.getAge(), age);
+    }
+
 }
