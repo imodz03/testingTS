@@ -1,6 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Assert;
+import static org.junit.Assert.*;
 
 public class PeopleTestClass {
 
@@ -9,7 +9,7 @@ public class PeopleTestClass {
         String name = "bob";
         People test = new People(name);
 
-        Assert.assertTrue(test.getName().equals(name));
+        assertTrue(test.getName().equals(name));
 
     }
 
@@ -18,7 +18,7 @@ public class PeopleTestClass {
         int age= 28;
         People test = new People("", age);
 
-        Assert.assertEquals(test.getAge(), age);
+        assertEquals(test.getAge(), age);
     }
 
 }
