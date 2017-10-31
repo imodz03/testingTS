@@ -41,6 +41,11 @@ public class PeopleTestClass {
         assertEquals(test.getHeight(), height);
     }
 
+    @Test
+    public void throwWrong(){
+        assertEquals(4+4, 8);
+    }
+
 
 
 }
