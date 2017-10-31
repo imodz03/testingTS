@@ -43,7 +43,7 @@ public class PeopleTestClass {
 
     @Test
     public void throwWrong(){
-        assertEquals(4+4, 8);
+        assertEquals(4+4, 9);
     }
 
 
